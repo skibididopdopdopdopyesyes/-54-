@@ -1,0 +1,6 @@
+{
+  "key.hitboxexpander.toggle": "Toggle HitBox Expander",
+  "key.hitboxexpander.increase": "Increase HitBox Size",
+  "key.hitboxexpander.decrease": "Decrease HitBox Size",
+  "category.hitboxexpander": "HitBox Expander"
+}
