@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hitboxexpander",
+  "version": "${version}",
+  "name": "HitBox Expander",
+  "description": "Advanced hitbox modification tool",
+  "authors": ["SWILL"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hitbox/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.swill.hitbox.HitBoxMod"]
+  },
+  "mixins": ["hitbox.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}
